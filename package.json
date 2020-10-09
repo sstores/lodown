@@ -1,0 +1,26 @@
+{
+  "name": "lodown-sstores",
+  "version": "1.0.0",
+  "description": "lodown library",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstores/lodown.git"
+  },
+  "author": "Sarah St Ores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstores/lodown/issues"
+  },
+  "homepage": "https://github.com/sstores/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.1.3",
+    "sinon": "^9.1.0"
+  }
+}
